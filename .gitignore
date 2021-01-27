@@ -1,0 +1,4 @@
+*.pyc
+geckodriver.log
+temp/*.txt
+test.py

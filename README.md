@@ -1,4 +1,6 @@
 # Yah
+## 2021 Retrospective
+When I wrote Yah several years ago, the issue of API tokens being left in Github repositories was rampant. Attackers could easily find AWS keys, Bitcoin private wallets, or any number of sensetive keys. Nowadays Github has its own built-in protections for this, in addition to several third party bots (such as from DiscordApp) using similar software to Yah. All-in-all, this is not really a huge issue anymore, but I like to keep this up. :D 
 ## What?
 Yah is a tool, to combat the accidental leaking of API tokens, RSA keys and other credentials, on Github.
 Yah is modular and expandable. You can easily, write a module and drop it into a folder. Yah will automatically detect the new addition and start parsing for it.
